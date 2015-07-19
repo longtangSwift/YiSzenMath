@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		292B1D111B5C12900057B95A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292B1D101B5C12900057B95A /* AppDelegate.swift */; };
+		292B1D131B5C12900057B95A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292B1D121B5C12900057B95A /* ViewController.swift */; };
+		292B1D161B5C12900057B95A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 292B1D141B5C12900057B95A /* Main.storyboard */; };
+		292B1D181B5C12900057B95A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 292B1D171B5C12900057B95A /* Assets.xcassets */; };
+		292B1D1B1B5C12900057B95A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 292B1D191B5C12900057B95A /* LaunchScreen.storyboard */; };
+		292B1D261B5C12900057B95A /* YiSzenMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292B1D251B5C12900057B95A /* YiSzenMathTests.swift */; };
+		292B1D311B5C12900057B95A /* YiSzenMathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292B1D301B5C12900057B95A /* YiSzenMathUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		292B1D221B5C12900057B95A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292B1D051B5C12900057B95A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292B1D0C1B5C12900057B95A;
+			remoteInfo = YiSzenMath;
+		};
+		292B1D2D1B5C12900057B95A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292B1D051B5C12900057B95A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292B1D0C1B5C12900057B95A;
+			remoteInfo = YiSzenMath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		292B1D0D1B5C12900057B95A /* YiSzenMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YiSzenMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		292B1D101B5C12900057B95A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		292B1D121B5C12900057B95A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		292B1D151B5C12900057B95A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		292B1D171B5C12900057B95A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		292B1D1A1B5C12900057B95A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		292B1D1C1B5C12900057B95A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292B1D211B5C12900057B95A /* YiSzenMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YiSzenMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		292B1D251B5C12900057B95A /* YiSzenMathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YiSzenMathTests.swift; sourceTree = "<group>"; };
+		292B1D271B5C12900057B95A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292B1D2C1B5C12900057B95A /* YiSzenMathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YiSzenMathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		292B1D301B5C12900057B95A /* YiSzenMathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YiSzenMathUITests.swift; sourceTree = "<group>"; };
+		292B1D321B5C12900057B95A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		292B1D0A1B5C12900057B95A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B1D1E1B5C12900057B95A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B1D291B5C12900057B95A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		292B1D041B5C12900057B95A = {
+			isa = PBXGroup;
+			children = (
+				292B1D0F1B5C12900057B95A /* YiSzenMath */,
+				292B1D241B5C12900057B95A /* YiSzenMathTests */,
+				292B1D2F1B5C12900057B95A /* YiSzenMathUITests */,
+				292B1D0E1B5C12900057B95A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		292B1D0E1B5C12900057B95A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				292B1D0D1B5C12900057B95A /* YiSzenMath.app */,
+				292B1D211B5C12900057B95A /* YiSzenMathTests.xctest */,
+				292B1D2C1B5C12900057B95A /* YiSzenMathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		292B1D0F1B5C12900057B95A /* YiSzenMath */ = {
+			isa = PBXGroup;
+			children = (
+				292B1D101B5C12900057B95A /* AppDelegate.swift */,
+				292B1D121B5C12900057B95A /* ViewController.swift */,
+				292B1D141B5C12900057B95A /* Main.storyboard */,
+				292B1D171B5C12900057B95A /* Assets.xcassets */,
+				292B1D191B5C12900057B95A /* LaunchScreen.storyboard */,
+				292B1D1C1B5C12900057B95A /* Info.plist */,
+			);
+			path = YiSzenMath;
+			sourceTree = "<group>";
+		};
+		292B1D241B5C12900057B95A /* YiSzenMathTests */ = {
+			isa = PBXGroup;
+			children = (
+				292B1D251B5C12900057B95A /* YiSzenMathTests.swift */,
+				292B1D271B5C12900057B95A /* Info.plist */,
+			);
+			path = YiSzenMathTests;
+			sourceTree = "<group>";
+		};
+		292B1D2F1B5C12900057B95A /* YiSzenMathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				292B1D301B5C12900057B95A /* YiSzenMathUITests.swift */,
+				292B1D321B5C12900057B95A /* Info.plist */,
+			);
+			path = YiSzenMathUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		292B1D0C1B5C12900057B95A /* YiSzenMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292B1D351B5C12900057B95A /* Build configuration list for PBXNativeTarget "YiSzenMath" */;
+			buildPhases = (
+				292B1D091B5C12900057B95A /* Sources */,
+				292B1D0A1B5C12900057B95A /* Frameworks */,
+				292B1D0B1B5C12900057B95A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YiSzenMath;
+			productName = YiSzenMath;
+			productReference = 292B1D0D1B5C12900057B95A /* YiSzenMath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		292B1D201B5C12900057B95A /* YiSzenMathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292B1D381B5C12900057B95A /* Build configuration list for PBXNativeTarget "YiSzenMathTests" */;
+			buildPhases = (
+				292B1D1D1B5C12900057B95A /* Sources */,
+				292B1D1E1B5C12900057B95A /* Frameworks */,
+				292B1D1F1B5C12900057B95A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				292B1D231B5C12900057B95A /* PBXTargetDependency */,
+			);
+			name = YiSzenMathTests;
+			productName = YiSzenMathTests;
+			productReference = 292B1D211B5C12900057B95A /* YiSzenMathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		292B1D2B1B5C12900057B95A /* YiSzenMathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292B1D3B1B5C12900057B95A /* Build configuration list for PBXNativeTarget "YiSzenMathUITests" */;
+			buildPhases = (
+				292B1D281B5C12900057B95A /* Sources */,
+				292B1D291B5C12900057B95A /* Frameworks */,
+				292B1D2A1B5C12900057B95A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				292B1D2E1B5C12900057B95A /* PBXTargetDependency */,
+			);
+			name = YiSzenMathUITests;
+			productName = YiSzenMathUITests;
+			productReference = 292B1D2C1B5C12900057B95A /* YiSzenMathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		292B1D051B5C12900057B95A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "CT MacBook Pro";
+				TargetAttributes = {
+					292B1D0C1B5C12900057B95A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					292B1D201B5C12900057B95A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 292B1D0C1B5C12900057B95A;
+					};
+					292B1D2B1B5C12900057B95A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 292B1D0C1B5C12900057B95A;
+					};
+				};
+			};
+			buildConfigurationList = 292B1D081B5C12900057B95A /* Build configuration list for PBXProject "YiSzenMath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 292B1D041B5C12900057B95A;
+			productRefGroup = 292B1D0E1B5C12900057B95A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				292B1D0C1B5C12900057B95A /* YiSzenMath */,
+				292B1D201B5C12900057B95A /* YiSzenMathTests */,
+				292B1D2B1B5C12900057B95A /* YiSzenMathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		292B1D0B1B5C12900057B95A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292B1D1B1B5C12900057B95A /* LaunchScreen.storyboard in Resources */,
+				292B1D181B5C12900057B95A /* Assets.xcassets in Resources */,
+				292B1D161B5C12900057B95A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B1D1F1B5C12900057B95A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B1D2A1B5C12900057B95A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		292B1D091B5C12900057B95A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292B1D131B5C12900057B95A /* ViewController.swift in Sources */,
+				292B1D111B5C12900057B95A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B1D1D1B5C12900057B95A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292B1D261B5C12900057B95A /* YiSzenMathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B1D281B5C12900057B95A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292B1D311B5C12900057B95A /* YiSzenMathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		292B1D231B5C12900057B95A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292B1D0C1B5C12900057B95A /* YiSzenMath */;
+			targetProxy = 292B1D221B5C12900057B95A /* PBXContainerItemProxy */;
+		};
+		292B1D2E1B5C12900057B95A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292B1D0C1B5C12900057B95A /* YiSzenMath */;
+			targetProxy = 292B1D2D1B5C12900057B95A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		292B1D141B5C12900057B95A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292B1D151B5C12900057B95A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		292B1D191B5C12900057B95A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292B1D1A1B5C12900057B95A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		292B1D331B5C12900057B95A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		292B1D341B5C12900057B95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		292B1D361B5C12900057B95A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YiSzenMath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..YiSzenMath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		292B1D371B5C12900057B95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YiSzenMath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..YiSzenMath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		292B1D391B5C12900057B95A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YiSzenMathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..YiSzenMathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YiSzenMath.app/YiSzenMath";
+			};
+			name = Debug;
+		};
+		292B1D3A1B5C12900057B95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YiSzenMathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..YiSzenMathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YiSzenMath.app/YiSzenMath";
+			};
+			name = Release;
+		};
+		292B1D3C1B5C12900057B95A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YiSzenMathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..YiSzenMathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YiSzenMath;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		292B1D3D1B5C12900057B95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YiSzenMathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..YiSzenMathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YiSzenMath;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		292B1D081B5C12900057B95A /* Build configuration list for PBXProject "YiSzenMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292B1D331B5C12900057B95A /* Debug */,
+				292B1D341B5C12900057B95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292B1D351B5C12900057B95A /* Build configuration list for PBXNativeTarget "YiSzenMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292B1D361B5C12900057B95A /* Debug */,
+				292B1D371B5C12900057B95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		292B1D381B5C12900057B95A /* Build configuration list for PBXNativeTarget "YiSzenMathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292B1D391B5C12900057B95A /* Debug */,
+				292B1D3A1B5C12900057B95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		292B1D3B1B5C12900057B95A /* Build configuration list for PBXNativeTarget "YiSzenMathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292B1D3C1B5C12900057B95A /* Debug */,
+				292B1D3D1B5C12900057B95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 292B1D051B5C12900057B95A /* Project object */;
+}
